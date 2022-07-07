@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Version>1.0.0</Version>
+    <Version>2.0.0-beta4.22272.1</Version>
     <Description>Provides some utilities and missing features for System.CommandLine.</Description>
   </PropertyGroup>
 
