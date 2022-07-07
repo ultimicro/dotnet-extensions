@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.CommandLine", "Ultima.Extensions.CommandLine\Ultima.Extensions.CommandLine.csproj", "{0E0EF3EA-C473-4804-A437-0699EA867A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.CommandLine.Tests", "Ultima.Extensions.CommandLine.Tests\Ultima.Extensions.CommandLine.Tests.csproj", "{A09D0D11-F314-4A99-9302-34D6D21AFD59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E0EF3EA-C473-4804-A437-0699EA867A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0EF3EA-C473-4804-A437-0699EA867A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0EF3EA-C473-4804-A437-0699EA867A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0EF3EA-C473-4804-A437-0699EA867A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09D0D11-F314-4A99-9302-34D6D21AFD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09D0D11-F314-4A99-9302-34D6D21AFD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09D0D11-F314-4A99-9302-34D6D21AFD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09D0D11-F314-4A99-9302-34D6D21AFD59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
