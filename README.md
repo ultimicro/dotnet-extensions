@@ -36,6 +36,12 @@ Available `CurrencyInfo` implementation:
 
 **Please note that `CurrencyCode.Parse` will accept any valid currency, including a test currency with XTS code. You MUST check `CurrencyInfo.IsOfficial` when accepting a currency from the user.**
 
+### Breaking changes
+
+#### 1.0 to 2.0
+
+`CurrencyCode` was changed from `struct` to `class`.
+
 ## License
 
 MIT
