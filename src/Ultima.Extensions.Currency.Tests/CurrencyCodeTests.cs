@@ -6,19 +6,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 public sealed class CurrencyCodeTests
 {
     [TestMethod]
-    [DataRow("THB", "TH", false, 0x00424854)]
-    [DataRow("EUR", null, true, 0x00525545)]
-    public void Parse_WithValidCode_ShouldReturnCorrespondingValue(string code, string? country, bool euro, int hash)
+    [DataRow("THB", "TH")]
+    [DataRow("EUR", null)]
+    public void Parse_WithValidCode_ShouldReturnCorrespondingValue(string code, string? country)
     {
         var result = CurrencyCode.Parse(code);
 
         Assert.AreEqual(country, result.Country?.Name);
         Assert.AreEqual(code, result.Value);
-
-        if (BitConverter.IsLittleEndian)
-        {
-            Assert.AreEqual(hash, result.GetHashCode());
-        }
     }
 
     [TestMethod]
@@ -50,7 +45,7 @@ public sealed class CurrencyCodeTests
     {
         var eur = CurrencyCode.Parse("EUR");
 
-        Assert.IsTrue(eur.CompareTo(CurrencyCode.Null) > 0);
+        Assert.IsTrue(eur.CompareTo(null) > 0);
     }
 
     [TestMethod]
@@ -76,12 +71,6 @@ public sealed class CurrencyCodeTests
     {
         var eur = CurrencyCode.Parse("EUR");
 
-        Assert.IsFalse(eur.Equals(CurrencyCode.Null));
-    }
-
-    [TestMethod]
-    public void GetHashCode_WithNull_ShouldReturnZero()
-    {
-        Assert.AreEqual(0, CurrencyCode.Null.GetHashCode());
+        Assert.IsFalse(eur.Equals(null));
     }
 }

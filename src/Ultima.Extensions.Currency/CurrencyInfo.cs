@@ -39,20 +39,12 @@ public abstract class CurrencyInfo
     /// <returns>
     /// A <see cref="CurrencyInfo"/> for <paramref name="code"/>.
     /// </returns>
-    /// <exception cref="ArgumentException">
-    /// <paramref name="code"/> is <see cref="CurrencyCode.Null"/>.
-    /// </exception>
     /// <remarks>
     /// This method return ALL available currencies, including a test currency (XTS). You MUST use <see cref="GetOfficial(string)"/> or checking
     /// <see cref="IsOfficial"/> when accepting a currency from the user.
     /// </remarks>
     public static CurrencyInfo Get(CurrencyCode code)
     {
-        if (code == CurrencyCode.Null)
-        {
-            throw new ArgumentException("The value is a null currency.", nameof(code));
-        }
-
         // We will never get KeyNotFoundException here due to CurrencyCode can only be constructed from the same currency set.
         return Available[code.Value];
     }
@@ -64,7 +56,8 @@ public abstract class CurrencyInfo
     /// The currency to get.
     /// </param>
     /// <returns>
-    /// A <see cref="CurrencyInfo"/> for <paramref name="code"/> or <c>null</c> if <paramref name="code"/> is not a valid currency or not an official currency.
+    /// A <see cref="CurrencyInfo"/> for <paramref name="code"/> or <see langword="null"/> if <paramref name="code"/> is not a valid currency or not an official
+    /// currency.
     /// </returns>
     public static CurrencyInfo? GetOfficial(string code)
     {
@@ -104,7 +97,7 @@ public abstract class CurrencyInfo
     /// The value to check.
     /// </param>
     /// <returns>
-    /// <c>true</c> if <paramref name="amount"/> is valid for this currency; otherwise <c>false</c>.
+    /// <see langword="true"/> if <paramref name="amount"/> is valid for this currency; otherwise <see langword="false"/>.
     /// </returns>
     /// <remarks>
     /// The valid amount is an amount that have fractional digits equal or less than <see cref="FractionalDigits"/>.

@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 public sealed class CurrencyCodeJsonConverter : JsonConverter<CurrencyCode>
 {
-    public override CurrencyCode Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+    public override CurrencyCode? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
     {
         // Read JSON.
         string? json;
@@ -16,13 +16,12 @@ public sealed class CurrencyCodeJsonConverter : JsonConverter<CurrencyCode>
         }
         catch (InvalidOperationException ex)
         {
-            throw new JsonException("The value is not a valid currency code.", ex);
+            throw new JsonException(null, ex);
         }
 
         if (json == null)
         {
-            // This should already handled by the framework.
-            throw new JsonException("The value is not a valid currency code.");
+            return null;
         }
 
         // Parse.
@@ -32,13 +31,13 @@ public sealed class CurrencyCodeJsonConverter : JsonConverter<CurrencyCode>
         }
         catch (FormatException ex)
         {
-            throw new JsonException("The value is not a valid currency code.", ex);
+            throw new JsonException(null, ex);
         }
     }
 
     public override CurrencyCode ReadAsPropertyName(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
     {
-        return this.Read(ref reader, typeToConvert, options);
+        return this.Read(ref reader, typeToConvert, options) ?? throw new JsonException();
     }
 
     public override void Write(Utf8JsonWriter writer, CurrencyCode value, JsonSerializerOptions options)
