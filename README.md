@@ -30,6 +30,7 @@ Available `CurrencyInfo` implementation:
 | Type               | Wikipedia                                          |
 | ------------------ | -------------------------------------------------- |
 | Euro               | https://en.wikipedia.org/wiki/Euro                 |
+| IndianRupee        | https://en.wikipedia.org/wiki/Indian_rupee         |
 | SingaporeDollar    | https://en.wikipedia.org/wiki/Singapore_dollar     |
 | SouthKoreanWon     | https://en.wikipedia.org/wiki/South_Korean_won     |
 | ThaiBaht           | https://en.wikipedia.org/wiki/Thai_baht            |
