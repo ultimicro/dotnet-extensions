@@ -5,11 +5,13 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Text.Json.Serialization;
 
 /// <summary>
 /// Represents a currency code in ISO 4217 Alphabetic format.
 /// </summary>
 [DebuggerDisplay($"{nameof(Value)}")]
+[JsonConverter(typeof(CurrencyCodeJsonConverter))]
 [StructLayout(LayoutKind.Sequential, Pack = 1)]
 [TypeConverter(typeof(CurrencyCodeConverter))]
 public unsafe struct CurrencyCode : IEquatable<CurrencyCode>, IComparable<CurrencyCode>, IComparable
