@@ -2,7 +2,9 @@
 
 This is a collection of lightweight .NET libraries to provide some missing features.
 
-## Ultima.Extensions.CommandLine [![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Ultima.Extensions.CommandLine)](https://www.nuget.org/packages/Ultima.Extensions.CommandLine)
+## Ultima.Extensions.CommandLine
+
+[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Ultima.Extensions.CommandLine)](https://www.nuget.org/packages/Ultima.Extensions.CommandLine)
 
 Provides some utilities and missing features for [System.CommandLine](https://www.nuget.org/packages/System.CommandLine).
 
@@ -10,7 +12,9 @@ Provides some utilities and missing features for [System.CommandLine](https://ww
 | -------------- | ----------------------------------------------------------------------------- |
 | CommandHandler | An implementation of `ICommandHandler` that automatic handle interupt signal. |
 
-## Ultima.Extensions.Currency [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Currency)](https://www.nuget.org/packages/Ultima.Extensions.Currency)
+## Ultima.Extensions.Currency
+
+[![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Currency)](https://www.nuget.org/packages/Ultima.Extensions.Currency)
 
 Provides some types to handling currency.
 
