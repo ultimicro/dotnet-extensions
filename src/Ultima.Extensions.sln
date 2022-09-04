@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.CommandLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.CommandLine.Tests", "Ultima.Extensions.CommandLine.Tests\Ultima.Extensions.CommandLine.Tests.csproj", "{A09D0D11-F314-4A99-9302-34D6D21AFD59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Currency", "Ultima.Extensions.Currency\Ultima.Extensions.Currency.csproj", "{A0DEC66A-2A07-4F5A-AD2C-A866156FCC99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Currency.Tests", "Ultima.Extensions.Currency.Tests\Ultima.Extensions.Currency.Tests.csproj", "{606F559D-1389-44CF-AED4-2607F580B445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{A09D0D11-F314-4A99-9302-34D6D21AFD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A09D0D11-F314-4A99-9302-34D6D21AFD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A09D0D11-F314-4A99-9302-34D6D21AFD59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DEC66A-2A07-4F5A-AD2C-A866156FCC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DEC66A-2A07-4F5A-AD2C-A866156FCC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DEC66A-2A07-4F5A-AD2C-A866156FCC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DEC66A-2A07-4F5A-AD2C-A866156FCC99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606F559D-1389-44CF-AED4-2607F580B445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606F559D-1389-44CF-AED4-2607F580B445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606F559D-1389-44CF-AED4-2607F580B445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606F559D-1389-44CF-AED4-2607F580B445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
