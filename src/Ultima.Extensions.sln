@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Currency"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Currency.Tests", "Ultima.Extensions.Currency.Tests\Ultima.Extensions.Currency.Tests.csproj", "{606F559D-1389-44CF-AED4-2607F580B445}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Collections", "Ultima.Extensions.Collections\Ultima.Extensions.Collections.csproj", "{E3C1D38B-89EE-4A3E-8F68-47C1FCFBDD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Collections.Tests", "Ultima.Extensions.Collections.Tests\Ultima.Extensions.Collections.Tests.csproj", "{75784004-B196-4B65-AB5A-11B283A9ABE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{606F559D-1389-44CF-AED4-2607F580B445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{606F559D-1389-44CF-AED4-2607F580B445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{606F559D-1389-44CF-AED4-2607F580B445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C1D38B-89EE-4A3E-8F68-47C1FCFBDD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C1D38B-89EE-4A3E-8F68-47C1FCFBDD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C1D38B-89EE-4A3E-8F68-47C1FCFBDD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C1D38B-89EE-4A3E-8F68-47C1FCFBDD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75784004-B196-4B65-AB5A-11B283A9ABE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75784004-B196-4B65-AB5A-11B283A9ABE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75784004-B196-4B65-AB5A-11B283A9ABE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75784004-B196-4B65-AB5A-11B283A9ABE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
