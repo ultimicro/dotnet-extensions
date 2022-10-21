@@ -2,6 +2,17 @@
 
 This is a collection of lightweight .NET libraries to provide some missing features.
 
+## Ultima.Extensions.Collections
+
+[![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Collections)](https://www.nuget.org/packages/Ultima.Extensions.Collections)
+
+Provides additional types to handle collections.
+
+| Type                  | Description                                                |
+| --------------------- | ---------------------------------------------------------- |
+| KeyedByTypeCollection | A collection to store unique items identified by its type. |
+| TypeComparer          | Provides implementations of `IComparer` for `Type`.        |
+
 ## Ultima.Extensions.CommandLine
 
 [![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Ultima.Extensions.CommandLine)](https://www.nuget.org/packages/Ultima.Extensions.CommandLine)
