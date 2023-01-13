@@ -6,10 +6,11 @@ This is a collection of lightweight .NET libraries to provide some missing featu
 
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Collections)](https://www.nuget.org/packages/Ultima.Extensions.Collections)
 
-Provides additional types to handle collections.
+Provides additional types and methods for handle collections.
 
 | Type                  | Description                                                |
 | --------------------- | ---------------------------------------------------------- |
+| DictionaryExtensions  | A collection of extension methods for `Dictionary`.        |
 | KeyedByTypeCollection | A collection to store unique items identified by its type. |
 | TypeComparer          | Provides implementations of `IComparer` for `Type`.        |
 
