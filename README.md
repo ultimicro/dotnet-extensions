@@ -1,6 +1,6 @@
 # .NET Extensions
 
-This is a collection of lightweight .NET libraries to provide some missing features.
+This is a collection of lightweight .NET libraries providing some missing features. These libraries has been using on production environment of [Cloudsumé](https://cloudsume.com) so it is production ready.
 
 ## Ultima.Extensions.Collections
 
@@ -53,6 +53,14 @@ Available `CurrencyInfo` implementation:
 #### 1.0 to 2.0
 
 `CurrencyCode` was changed from `struct` to `class`.
+
+## Ultima.Extensions.Security
+
+Provides additional types and methods for types in `System.Security` namespace.
+
+| Type                       | Description                                              |
+| -------------------------- | -------------------------------------------------------- |
+| ClaimsPrincipalExtensions  | A collection of extension methods for `ClaimsPrincipal`. |
 
 ## License
 
