@@ -3,7 +3,6 @@
 This is a collection of lightweight .NET libraries providing some missing features. These libraries has been using on production environment of [Cloudsumé](https://cloudsume.com) so it is production ready.
 
 ## Ultima.Extensions.Collections
-
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Collections)](https://www.nuget.org/packages/Ultima.Extensions.Collections)
 
 Provides additional types and methods for handle collections.
@@ -15,7 +14,6 @@ Provides additional types and methods for handle collections.
 | TypeComparer          | Provides implementations of `IComparer` for `Type`.        |
 
 ## Ultima.Extensions.CommandLine
-
 [![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Ultima.Extensions.CommandLine)](https://www.nuget.org/packages/Ultima.Extensions.CommandLine)
 
 Provides some utilities and missing features for [System.CommandLine](https://www.nuget.org/packages/System.CommandLine).
@@ -25,7 +23,6 @@ Provides some utilities and missing features for [System.CommandLine](https://ww
 | CommandHandler | An implementation of `ICommandHandler` that automatic handle interupt signal. |
 
 ## Ultima.Extensions.Currency
-
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Currency)](https://www.nuget.org/packages/Ultima.Extensions.Currency)
 
 Provides some types to handling currency.
@@ -55,6 +52,7 @@ Available `CurrencyInfo` implementation:
 `CurrencyCode` was changed from `struct` to `class`.
 
 ## Ultima.Extensions.Security
+[![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Security)](https://www.nuget.org/packages/Ultima.Extensions.Security)
 
 Provides additional types and methods for types in `System.Security` namespace.
 
