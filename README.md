@@ -41,6 +41,7 @@ Available `CurrencyInfo` implementation:
 | JapaneseYen        | https://en.wikipedia.org/wiki/Japanese_yen         |
 | NigerianNaira      | https://en.wikipedia.org/wiki/Nigerian_naira       |
 | PakistaniRupee     | https://en.wikipedia.org/wiki/Pakistani_rupee      |
+| PhilippinePeso     | https://en.wikipedia.org/wiki/Philippine_peso      |
 | SingaporeDollar    | https://en.wikipedia.org/wiki/Singapore_dollar     |
 | SouthKoreanWon     | https://en.wikipedia.org/wiki/South_Korean_won     |
 | ThaiBaht           | https://en.wikipedia.org/wiki/Thai_baht            |
