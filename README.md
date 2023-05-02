@@ -44,6 +44,7 @@ Available `CurrencyInfo` implementation:
 | PhilippinePeso     | https://en.wikipedia.org/wiki/Philippine_peso      |
 | SingaporeDollar    | https://en.wikipedia.org/wiki/Singapore_dollar     |
 | SouthKoreanWon     | https://en.wikipedia.org/wiki/South_Korean_won     |
+| Sterling           | https://en.wikipedia.org/wiki/Pound_sterling       |
 | ThaiBaht           | https://en.wikipedia.org/wiki/Thai_baht            |
 | UnitedStatesDollar | https://en.wikipedia.org/wiki/United_States_dollar |
 
