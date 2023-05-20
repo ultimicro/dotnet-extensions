@@ -56,6 +56,27 @@ Available `CurrencyInfo` implementation:
 
 `CurrencyCode` was changed from `struct` to `class`.
 
+## Ultima.Extensions.Json
+
+Provides additional types and methods to works with `System.Text.Json`.
+
+### JsonConverter implementations
+
+| Converter            | Target type                      |
+| -------------------- | -------------------------------- |
+| CultureInfoConverter | System.Globalization.CultureInfo |
+| MailAddressConverter | System.Net.Mail.MailAddress      |
+| RegionInfoConverter  | System.Globalization.RegionInfo  |
+
+You can register the converter to want by adding its instance to `System.Text.Json.JsonSerializerOptions.Converters`. You can use `System.Text.Json.JsonSerializerOptions.AddSystemTypeConverters` extension method to register all of the additional converters.
+
+### System.Text.Json.JsonSerializerOptions extension methods
+
+| Method                  | Description                                                                                                                    |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------|
+| AddSystemTypeConverters | Register all of additional converters.                                                                                         |
+| NormalizeProperty       | Normalize the specified property name according to `System.Text.Json.JsonSerializerOptions.PropertyNamingPolicy` if available. |
+
 ## Ultima.Extensions.Security
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Security)](https://www.nuget.org/packages/Ultima.Extensions.Security)
 
