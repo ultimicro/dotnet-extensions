@@ -57,6 +57,7 @@ Available `CurrencyInfo` implementation:
 `CurrencyCode` was changed from `struct` to `class`.
 
 ## Ultima.Extensions.Json
+[![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Json)](https://www.nuget.org/packages/Ultima.Extensions.Json)
 
 Provides additional types and methods to works with `System.Text.Json`.
 
