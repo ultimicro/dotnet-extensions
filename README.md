@@ -78,6 +78,16 @@ You can register the converter to want by adding its instance to `System.Text.Js
 | AddSystemTypeConverters | Register all of additional converters.                                                                                         |
 | NormalizeProperty       | Normalize the specified property name according to `System.Text.Json.JsonSerializerOptions.PropertyNamingPolicy` if available. |
 
+## Ultima.Extensions.Primitives
+
+Provides additional types to work with .NET fundamental types.
+
+| Type       | Description                                                                 |
+| ---------- | --------------------------------------------------------------------------- |
+| UriBuilder | An alternative to `System.UriBuilder` with more powerful and easier to use. |
+| Uuid       | Provides some static methods to convert between Guid and UUID.              |
+| YearMonth  | A struct to represent year and month without day.                           |
+
 ## Ultima.Extensions.Security
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Security)](https://www.nuget.org/packages/Ultima.Extensions.Security)
 

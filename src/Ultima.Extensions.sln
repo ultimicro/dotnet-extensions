@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Json", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Json.Tests", "Ultima.Extensions.Json.Tests\Ultima.Extensions.Json.Tests.csproj", "{F51315B3-4F42-442D-8A17-83741203B2D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Primitives", "Ultima.Extensions.Primitives\Ultima.Extensions.Primitives.csproj", "{B678C1C9-D01B-4FA0-8F34-FD0788FBBBA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultima.Extensions.Primitives.Tests", "Ultima.Extensions.Primitives.Tests\Ultima.Extensions.Primitives.Tests.csproj", "{9A093555-6C99-4B48-8B78-40612103F438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,13 @@ Global
 		{F51315B3-4F42-442D-8A17-83741203B2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F51315B3-4F42-442D-8A17-83741203B2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F51315B3-4F42-442D-8A17-83741203B2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B678C1C9-D01B-4FA0-8F34-FD0788FBBBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B678C1C9-D01B-4FA0-8F34-FD0788FBBBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B678C1C9-D01B-4FA0-8F34-FD0788FBBBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B678C1C9-D01B-4FA0-8F34-FD0788FBBBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A093555-6C99-4B48-8B78-40612103F438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A093555-6C99-4B48-8B78-40612103F438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A093555-6C99-4B48-8B78-40612103F438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A093555-6C99-4B48-8B78-40612103F438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
