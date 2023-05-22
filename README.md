@@ -2,7 +2,7 @@
 
 This is a collection of lightweight .NET libraries providing some missing features. These libraries has been using on production environment of [Cloudsumé](https://cloudsume.com) so it is production ready.
 
-## Ultima.Extensions.Collections
+## 📦 Ultima.Extensions.Collections
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Collections)](https://www.nuget.org/packages/Ultima.Extensions.Collections)
 
 Provides additional types and methods for handle collections.
@@ -13,7 +13,7 @@ Provides additional types and methods for handle collections.
 | KeyedByTypeCollection | A collection to store unique items identified by its type. |
 | TypeComparer          | Provides implementations of `IComparer` for `Type`.        |
 
-## Ultima.Extensions.CommandLine
+## 📦 Ultima.Extensions.CommandLine
 [![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Ultima.Extensions.CommandLine)](https://www.nuget.org/packages/Ultima.Extensions.CommandLine)
 
 Provides some utilities and missing features for [System.CommandLine](https://www.nuget.org/packages/System.CommandLine).
@@ -22,7 +22,7 @@ Provides some utilities and missing features for [System.CommandLine](https://ww
 | -------------- | ----------------------------------------------------------------------------- |
 | CommandHandler | An implementation of `ICommandHandler` that automatic handle interupt signal. |
 
-## Ultima.Extensions.Currency
+## 📦 Ultima.Extensions.Currency
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Currency)](https://www.nuget.org/packages/Ultima.Extensions.Currency)
 
 Provides some types to handling currency.
@@ -56,7 +56,7 @@ Available `CurrencyInfo` implementation:
 
 `CurrencyCode` was changed from `struct` to `class`.
 
-## Ultima.Extensions.Json
+## 📦 Ultima.Extensions.Json
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Json)](https://www.nuget.org/packages/Ultima.Extensions.Json)
 
 Provides additional types and methods to works with `System.Text.Json`.
@@ -78,7 +78,8 @@ You can register the converter to want by adding its instance to `System.Text.Js
 | AddSystemTypeConverters | Register all of additional converters.                                                                                         |
 | NormalizeProperty       | Normalize the specified property name according to `System.Text.Json.JsonSerializerOptions.PropertyNamingPolicy` if available. |
 
-## Ultima.Extensions.Primitives
+## 📦 Ultima.Extensions.Primitives
+[![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Primitives)](https://www.nuget.org/packages/Ultima.Extensions.Primitives)
 
 Provides additional types to work with .NET fundamental types.
 
@@ -88,7 +89,7 @@ Provides additional types to work with .NET fundamental types.
 | Uuid       | Provides some static methods to convert between Guid and UUID.              |
 | YearMonth  | A struct to represent year and month without day.                           |
 
-## Ultima.Extensions.Security
+## 📦 Ultima.Extensions.Security
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Security)](https://www.nuget.org/packages/Ultima.Extensions.Security)
 
 Provides additional types and methods for types in `System.Security` namespace.
