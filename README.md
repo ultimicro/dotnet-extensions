@@ -56,6 +56,17 @@ Available `CurrencyInfo` implementation:
 
 `CurrencyCode` was changed from `struct` to `class`.
 
+## 📦 Ultima.Extensions.DataValidation
+[![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.DataValidation)](https://www.nuget.org/packages/Ultima.Extensions.DataValidation)
+
+Additionals `System.ComponentModel.DataAnnotations.ValidationAttribute` implementation.
+
+| Type                 | Description                                                   |
+| -------------------- | ------------------------------------------------------------- |
+| NonNegativeAttribute | Specifies that the number must be greater or equal than zero. |
+| PositiveAttribute    | Specifies that the number must be greater than zero.          |
+| UniqueAttribute      | Specifies that the item in a collection must be unique.       |
+
 ## 📦 Ultima.Extensions.Json
 [![Nuget](https://img.shields.io/nuget/v/Ultima.Extensions.Json)](https://www.nuget.org/packages/Ultima.Extensions.Json)
 
