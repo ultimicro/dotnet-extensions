@@ -1,6 +1,7 @@
 ﻿namespace Ultima.Extensions.Primitives;
 
 using System;
+using System.Text.Json.Serialization;
 
 /// <summary>
 /// Represents year and month without day.
@@ -27,6 +28,7 @@ public readonly struct YearMonth
     /// <exception cref="ArgumentOutOfRangeException">
     /// <paramref name="year"/> or <paramref name="month"/> is not valid.
     /// </exception>
+    [JsonConstructor]
     public YearMonth(int year, int month)
     {
         if (year < MinYear || year > MaxYear)
